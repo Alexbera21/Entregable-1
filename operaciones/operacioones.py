@@ -1,8 +1,13 @@
-num1 = float(input("Ingrese el primer número: "))
-num2 = float(input("Ingrese el segundo número: "))
+num1 = int(input("Ingrese el primer número: "))
+num2 = int(input("Ingrese el segundo número: "))
+num3 = int(input("Ingrese el tercer número: "))
+num4 = int(input("Ingrese el cuarto número: "))
+num5 = int(input("Ingrese el quinto número: "))
 
-print(f"Suma: {num1 + num2}")
-print(f"Resta: {num1 - num2}")
-print(f"Multiplicación: {num1 * num2}")
-print(f"División: {num1 / num2 if num2 != 0 else 'Error: División por cero'}")
+numeros = [num1, num2, num3, num4, num5]
+
+numeros.sort()
+
+print("Los números ordenados de menor a mayor son:", numeros)
+
 
